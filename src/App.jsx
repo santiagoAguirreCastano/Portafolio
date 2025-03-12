@@ -6,7 +6,7 @@ import { HardSkills } from "./pages/HardSkills/HardSkills"
 import { ProfessionalExperience } from "./pages/ProfessionalExperience/ProfessionalExperience"
 import { EnglishLevel } from "./pages/EnglishLevel/EnglishLevel"
 import { Studies } from "./pages/Studies/Studies"
-import { SocialSkills } from "./pages/socialSkills/SocialSkills"
+import { SocialSkills } from "./pages/SocialSkillss/SocialSkills"
 export const App = ()=>{
     return(
    
@@ -19,7 +19,7 @@ export const App = ()=>{
         <Route path="/ProfessionalExperience" element={<ProfessionalExperience/>} />
         <Route path="/EnglishLevel" element={<EnglishLevel />} />
         <Route path="/Studies" element={<Studies />} />
-        <Route path="/socialSkills" element={<SocialSkills />} />
+        <Route path="/SocialSkillss" element={<SocialSkills />} />
 
                     
         {/* <Route path="*" element={<NotFound />} /> */}
