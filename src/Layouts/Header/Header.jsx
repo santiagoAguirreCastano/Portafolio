@@ -36,7 +36,7 @@ export const Header = () => {
             <ItemNavBar route="/HardSkills" content="Habilidades Técnicas" styles="text-white text-lg" />
             <ItemNavBar route="/EnglishLevel" content="Nivel de Inglés" styles="text-white text-lg" />
             <ItemNavBar route="/ProfessionalExperience" content="Experiencia Profesional" styles="text-white text-lg" />
-            <ItemNavBar route="/SocialSkills" content="Habilidades Sociales" styles="text-white text-lg" />
+            <ItemNavBar route="/SocialSkillss" content="Habilidades Sociales" styles="text-white text-lg" />
             <ItemNavBar route="/Studies" content="Estudios" styles="text-white text-lg" />
           </ul>
         </NavBar>
