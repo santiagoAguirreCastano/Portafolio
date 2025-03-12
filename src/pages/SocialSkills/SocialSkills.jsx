@@ -1,5 +1,5 @@
 import { CardSocialSkills } from "../../Layouts/CardSocialSkills/CardSocialSkills";
-export const  SocialSkills=() => {
+export const SocialSkills = () => {
   return (
     <div className="h-[100vh] bg-gray-100 flex flex-col items-center p-6">
       <h1 className="text-3xl font-bold text-teal-600 mb-6">Habilidades Sociales</h1>
