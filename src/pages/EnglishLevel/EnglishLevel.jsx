@@ -5,7 +5,7 @@ export const EnglishLevel = () => {
     return (
         <Main>
 
-            <div className="w-[30rem]  my-10 p-6 bg-white shadow-xl rounded-lg">
+            <div className=" w-[30rem] max-sm:w-[20rem]  my-10 p-6 bg-white shadow-xl rounded-lg">
                 <ItemTitles content="Mi Nivel de Inglés" styles="text-2xl font-bold text-center text-gray-800 mb-6" />
 
                 <div className="text-center mb-6">

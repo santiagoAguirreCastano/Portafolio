@@ -14,7 +14,7 @@ export const Header = () => {
 
       
         <button 
-          className=" md:hidden text-white text-3xl ml-[10rem]"
+          className=" md:hidden text-white text-3xl ml-[10rem] max-sm:ml-[5rem]"
           onClick={() => setIsOpen(!isOpen)}
           aria-label="Abrir menú">
           ☰
@@ -23,13 +23,13 @@ export const Header = () => {
         
         <NavBar>
           <ul className={`
-            md:flex md:space-x-8 
+           
             absolute md:static top-16 left-0 w-full md:w-auto bg-teal-500 md:bg-transparent 
             flex flex-col md:flex-row items-center space-y-4 md:space-y-0 md:space-x-6
             p-6 md:p-0 shadow-lg md:shadow-none transition-all duration-300 ease-in-out
-             sm:flex sm:space-x-4 
-            absolute sm: top-18 left-0 w-full sm:w-auto bg-teal-500 sm:bg-transparent 
-            flex flex-col sm:flex-row items-center  transition-all duration-300 ease-in-out
+            sm:flex sm:space-x-4 
+            max-sm:top-23 
+           
             ${isOpen ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-5 pointer-events-none md:opacity-100 md:translate-y-0 md:pointer-events-auto"}
           `}>
             <ItemNavBar route="/" content="Home" styles="text-white text-lg" />

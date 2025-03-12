@@ -1,10 +1,10 @@
 import { CardSocialSkills } from "../../Layouts/CardSocialSkills/CardSocialSkills";
 export const SocialSkills = () => {
   return (
-    <div className="h-[100vh] bg-gray-100 flex flex-col items-center p-6">
+    <div className="max-sm:h-auto   sm: h-[100vh] bg-gray-100 flex flex-col items-center p-6">
       <h1 className="text-3xl font-bold text-teal-600 mb-6">Habilidades Sociales</h1>
       
-      <div className=" grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-6 w-full max-w-5xl">
+      <div className=" grid grid-cols-1  sm:grid-cols-2 md:grid-cols-2 gap-6 w-full max-w-5xl">
         
         
       <CardSocialSkills content="Trabajo en Equipo" content2="Capacidad para colaborar y comunicarse eficazmente"/>
@@ -19,7 +19,7 @@ export const SocialSkills = () => {
 
       <CardSocialSkills content="Comunicación" content2="Expresión clara y efectiva en diferentes contextos."/>
 
-      <CardSocialSkills content="Solidaridad" content2="Capacidad de apoyar y ayudar a los demás de manera desinteresada, fomentando la cooperación y el bienestar común."/>
+      <CardSocialSkills content="Solidaridad" content2="Capacidad de ayudar a los demás de manera desinteresada, fomentando la cooperación"/>
 
         
       
