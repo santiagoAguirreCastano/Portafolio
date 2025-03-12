@@ -1,6 +1,5 @@
 import { Routes, Route } from "react-router-dom"
 import { Home } from "./pages/Home/Home"
-// import { NotFound } from "./components/Pages/NotFound/NotFound"
 import { Header } from "./Layouts/Header/Header" 
 import { Footer } from "./Layouts/Footer/Footer"
 import { HardSkills } from "./pages/HardSkills/HardSkills"
@@ -20,7 +19,7 @@ export const App = ()=>{
         <Route path="/ProfessionalExperience" element={<ProfessionalExperience/>} />
         <Route path="/EnglishLevel" element={<EnglishLevel />} />
         <Route path="/Studies" element={<Studies />} />
-        <Route path="/SocialSkills" element={<SocialSkills />} />
+        <Route path="/socialSkills" element={<SocialSkills />} />
 
                     
         {/* <Route path="*" element={<NotFound />} /> */}
